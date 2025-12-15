@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurora Coffee | The North's Finest</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">AURORA.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#story">Story</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact" class="btn-nav">Book a Table</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content" data-aos="zoom-in" data-aos-duration="1500">
+            <span class="tagline">EST. 2024 • FORT ST. JOHN</span>
+            <h1>Coffee for the <br> Bold & Cold.</h1>
+            <p>Artisan roasting in the heart of the energetic city.</p>
+            <div class="hero-btns">
+                <a href="#menu" class="btn-gold">View Menu</a>
+                <a href="#story" class="btn-outline">Our Story</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="info-bar">
+        <div class="info-item" data-aos="fade-up" data-aos-delay="100">
+            <i class="fas fa-coffee"></i>
+            <h3>Ethical Sourcing</h3>
+            <p>Direct trade beans from Colombia.</p>
+        </div>
+        <div class="info-item" data-aos="fade-up" data-aos-delay="200">
+            <i class="fas fa-wifi"></i>
+            <h3>Work Friendly</h3>
+            <p>High-speed fiber & quiet zones.</p>
+        </div>
+        <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+            <i class="fas fa-moon"></i>
+            <h3>Late Nights</h3>
+            <p>Open until 11 PM for students.</p>
+        </div>
+    </section>
+
+    <section id="story" class="story-section">
+        <div class="story-img" data-aos="fade-right">
+            <img src="https://images.unsplash.com/photo-1442512595331-e89e7385a861?q=80&w=1000&auto=format&fit=crop" alt="Coffee Pouring">
+        </div>
+        <div class="story-text" data-aos="fade-left">
+            <h2>Warmth in the North</h2>
+            <p>Born from the need for a cozy refuge in Fort St. John, Aurora Coffee started as a small roastery in a garage. We believe that a cup of coffee is more than caffeine—it's a moment of sanity in the chaos.</p>
+            <p>Whether you are a student pulling an all-nighter or a worker off a long shift, our doors are open and the machine is hot.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Signature_sample.svg/1200px-Signature_sample.svg.png" alt="Signature" class="signature">
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Signatures</h2>
+            <div class="line"></div>
+        </div>
+        
+        <div class="menu-grid">
+            <div class="menu-card" data-aos="fade-up">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=80&w=1000&auto=format&fit=crop');"></div>
+                <div class="card-info">
+                    <div class="card-header">
+                        <h3>Maple Latte</h3>
+                        <span class="price">$6.50</span>
+                    </div>
+                    <p>Espresso with local maple syrup and oat milk.</p>
+                </div>
+            </div>
+
+            <div class="menu-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1550617931-e17a7b70dce2?q=80&w=1000&auto=format&fit=crop');"></div>
+                <div class="card-info">
+                    <div class="card-header">
+                        <h3>Glacial Cold Brew</h3>
+                        <span class="price">$5.00</span>
+                    </div>
+                    <p>Steeped for 24h, served over ice.</p>
+                </div>
+            </div>
+
+            <div class="menu-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=1000&auto=format&fit=crop');"></div>
+                <div class="card-info">
+                    <div class="card-header">
+                        <h3>Cinnamon Roll</h3>
+                        <span class="price">$4.75</span>
+                    </div>
+                    <p>Freshly baked every morning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-container" data-aos="fade-right">
+            <h2>Visit Us</h2>
+            <p><i class="fas fa-map-marker-alt"></i>  Fort St. John</p>
+            <p><i class="fas fa-phone"></i> (250) 555-5555</p>
+            <p><i class="fas fa-clock"></i> Daily: 7am - 11pm</p>
+            
+            <form class="booking-form">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <button type="submit" class="btn-gold">Join Mailing List</button>
+            </form>
+        </div>
+        <div class="contact-map" data-aos="fade-left">
+            <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1000&auto=format&fit=crop" alt="Ambience">
+        </div>
+    </section>
+
+    <footer>
+        <p>Aurora Coffee Co. &copy; 2025</p>
+        <div class="socials">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-tiktok"></i>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Inicia as animações
+        AOS.init();
+
+        // LÓGICA DO MENU HAMBÚRGUER (O Cérebro)
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active'); // Liga/Desliga o menu
+        });
+    </script>
+</body>
+</html>
